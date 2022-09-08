@@ -1,0 +1,34 @@
+My name is Lisa Jenkins
+work flow **
+
+- New repo:
+-- Local
+> git init 
+Worked on our changes
+> git add . 
+> git commit -m "first commit" **OR** "initial commit"
+
+
+
+--Remote (Github)
+> Login
+> Create a Repository (named same or similar to local project)
+> Go back to the local git repo, add remote change master branch to main,push commit history
+ >>(copy commands from github, paste into terminal)
+ > git push -u origin main
+
+- Working Repository
+-- Local
+> If this is a new feature:
+  > git checkout -b <branch-name>
+  > Development
+  > git add . 
+  > git commit -m "explicit but short message explaining changes"
+  > git push -u origin <remote><branch-name>
+--Current feature
+  > git add .
+  > git commit -m "<message>"
+  > git push 
+
+  ** Helpful
+  > git status 
